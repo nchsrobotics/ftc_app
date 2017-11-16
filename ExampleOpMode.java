@@ -45,8 +45,8 @@ public class ExampleOpMode extends LinearOpMode
 
         while (opModeIsActive())
         {
-            accelerate(gamepad1.right_stick_y, motorR, -5);
-            accelerate(gamepad1.right_stick_y, motorL, -5);
+            accelerate(gamepad1.right_stick_y, motorR, -15);
+            accelerate(gamepad1.right_stick_y, motorL, -15);
             String data = "Left Drive Input: " + gamepad1.left_stick_y + "; Right Drive Input: " + gamepad1.right_stick_y;
             telemetry.addData("Left Drive Input: ", gamepad1.left_stick_y);
             telemetry.addData("Right Drive Input: ", gamepad1.right_stick_y);
